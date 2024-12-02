@@ -1,0 +1,47 @@
+body {
+    color: rgb(230, 230, 230);
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border-spacing: 20px;
+    border-collapse: separate;
+}
+
+#error {
+    color: rgb(255, 0, 0);
+}
+
+#info {
+    color: rgb(0, 255, 76);
+}
+
+#error, #info{
+    opacity: 1;
+}
+
+td {
+    background-color: rgb(206, 184, 187);
+    height: 20vh;
+    width: 20vh;
+    border-radius: 2vh;
+    margin: 1vh;
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#join-other-game {
+    text-align: center;
+    border: 3px solid rgb(26, 26, 26);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#join-other-game > p{
+    margin: 10px;
+}

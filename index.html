@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Kółko i krzyżyk</title>
+</head>
+
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="hide-after-join">
+        <p id="join-code-container">Kod dołączania do tej gry: <b id="join-code"></b></p>
+        <div id="join-other-game">
+            <p>Dołącz do innej gry</p>
+            <input id="join-code-input" placeholder="Wpisz kod">
+            <button id="send-join-request">Dołącz</button>
+        </div>
+    </div>
+    <p id="error"></p>
+    <p id=info></p>
+</body>
+
+</html>
